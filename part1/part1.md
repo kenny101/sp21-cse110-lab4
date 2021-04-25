@@ -2,7 +2,7 @@
 1. values added:  20
 2. final result:  20
 3. values added:  20
-4. 13 is an error because declaring with let only declares the variable locally in the braces. Outside braces, result is destroyed
+4. 13 is an error because declaring with let only declares the variable locally its scope. Outside braces/scope of let result, result is destroyed
 5. line 9 doesn't get executed because at line 7, we tried to change result but the compiler gave us an error because we tried to change a const variable
 6. line 13 doesn't get executed because at line 7, we tried to change result but the compiler gave us an error because we tried to change a const variable
 # part b:
